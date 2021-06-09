@@ -1,6 +1,5 @@
-
 ![javascript-illustration](https://user-images.githubusercontent.com/3
-35126/49341249-1309d300-f68e-11e8-9470-e5cf1164a504.png)!
+35126/49341249-1309d300-f68e-11e8-9470-e5cf1164a504.png)
 
 
 
