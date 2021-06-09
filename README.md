@@ -16,10 +16,3 @@ As a multi-paradigm language, JavaScript supports event-driven, functional, and 
 Initially only implemented client-side in web browsers, JavaScript engines are now embedded in many other types of host software, including server-side in web servers and databases, and in non-web programs such as word processors and PDF software, and in runtime environments that make JavaScript available for writing mobile and desktop applications, including desktop widgets.
 
 Although there are strong outward similarities between JavaScript and Java, including language name, syntax, and respective standard libraries, the two languages are distinct and differ greatly in design; JavaScript was influenced by programming languages such as Self and Scheme.
-
-<h2>Reference site<h2>
-https://opentutorials.org/course/1
-  
-  
-  
-https://www.wikipedia.org/
