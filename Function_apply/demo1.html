@@ -1,0 +1,30 @@
+<!-- //this = 현재 정해져 있지 않다. 즉, 호출할때 정해진다.// -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		<script type="text/javascript">
+			
+		function sum(){
+    var _sum = 0;
+    for(name in this){   //[name]
+    	// if(typeof this[name] !== 'function')  
+        _sum += this[name];
+    }
+    return _sum;
+}
+	o1 = {val1:1, val2:2, val3:3, sum:Sum}
+	o2 = {v1:10, v2:50, v3:100, v4:25, Sum:Sum}
+	alert(o1.sum()); 
+	alert(o2.sum()); 
+
+	// alert(sum.apply(o1)) // 6
+	// alert(sum.apply(o2)) // 185
+
+		</script>
+	</title>
+</head>
+<body>
+
+</body>
+</html>

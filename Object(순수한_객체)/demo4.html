@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+		<script type="text/javascript">
+		Object.prototype.contain = function(needle){
+			for(var name in this){
+				if(this[name] === needle){
+					return true;
+				}
+			}
+			return false;
+		}
+
+		var o = {'name':'goldpenguin', 'city':'incheon'}
+		console.log(o.contain('goldpenguin'));
+		var a = ['goldpenguin','goldpenguin93','goldpenguin993'];
+		console.log(a.contain('goldpenguin93'));
+		</script>
+	
+
+</html>
+</head>

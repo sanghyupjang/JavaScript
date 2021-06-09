@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+        <script type="text/javascript">
+        Object.prototype.contain = function(needle){
+            for(var name in this){
+                if(this[name] === needle){
+                    return true;
+                }
+            }
+            return false;
+        }
+
+        var o = {'name':'goldpenguin', 'city':'incheon'}
+        var a = ['goldpenguin','goldpenguin93','goldpenguin993'];
+      
+        
+        for(var name in o){
+            if(o.hasOwnProperty(name)){
+                console.log(name);
+
+            }
+            console.log(name);
+        }
+        </script>
+    
+
+</html>
+</head>
